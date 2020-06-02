@@ -1,0 +1,121 @@
+
+.menu .navbar {
+  padding: 0px;
+  
+}
+
+.super-menu .main-menu-item {
+  text-align: right !important;
+  justify-content: right;
+}
+
+
+.super-menu .main-menu-item ul li .nav-link {
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+
+.super-menu .main-menu-item ul li .nav-link:hover {
+    color: white;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+ 
+  .super-menu .main-menu-item ul li .nav-link {
+    padding: 35px 16px;
+  }
+}
+
+
+.menu_fixed {
+  position: fixed;
+  z-index: 9999 !important;
+  width: 100%;
+  background-color: #000;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+  top: 0;
+}
+.menu {
+    background-color:#8bb938;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color:white !important;
+}
+
+.menu_fixed .navbar-brand img {
+    max-width: 183px;
+}
+
+
+.menu_fixed .main-menu-item ul li .nav-link {
+  padding: 25px 25px;
+}
+
+
+.menu_fixed span {
+  color: #000 !important;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+.dropdown .dropdown-menu {
+  transition: all 0.5s;
+  overflow: hidden;
+  transform-origin: top center;
+  transform: scale(1, 0);
+  display: block;
+  margin-top: 0px;
+  border: 0px solid rgba(0, 0, 0, 0.15) !important;
+  background-color: #fafafa;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff !important;
+    text-decoration: none;
+    background-color:#8bb938 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+}
+
+@media (max-width: 991px) {
+  
+  .main_menu_iner {
+    padding: 20px 0px;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border-color: white;
+    background-color: white;
+  }
+  
+  .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+ 
+  .super-menu .main-menu-item {
+    text-align: left !important;
+  }
+  
+  .super-menu .main-menu-item .nav-item {
+    padding: 10px 15px !important;
+  }
+  
+  .super-menu .main-menu-item .nav-item a {
+    padding: 8px 15px !important;
+  }
+}
