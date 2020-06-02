@@ -1,2 +1,2 @@
-# web-solution
+# Web-Solution
 web-template
